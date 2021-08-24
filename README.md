@@ -1,6 +1,10 @@
 # Plus ou moins le jeu
 
-Un visiteur propose un chiffre ou un nombre depuis une boîte de dialogue entre 1 et 100. L'ordinateur guidera le joueur en lui indiquant si le nombre à trouver est plus grand ou plus petit que son choix en affichant une phrase, non pas dans la console, mais directement sur la page du navigateur.
+Le jeu choisit aléatoirement un nombre entre 1 et 100, puis il met le joueur au défi de le deviner. À chaque tour, le joueur doit être informé s'il a deviné ou non le bon nombre — si ce n'est pas le cas, le jeu lui indique si son estimation est trop basse ou trop élevée. Le jeu se termine quand le joueur a deviné le nombre mystère. À la fin du jeu, le joueur a la possibilité de débuter une nouvelle partie.
+
+## Bonus
+
+Ajouter un système pour n'avoir que 10 chances pour trouver le bon résultat.
 
 ## Langage utilisé
 JavaScript
